@@ -1,0 +1,103 @@
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    border: 5px solid red;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.page-header {
+    width: 100%;
+    background-color: #445161;
+    color: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-header-wrp {
+    width: 100%;
+    height: 214px;
+    box-sizing: border-box;
+}
+
+.page-header-title {
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.3);
+    font-family: ArialMT;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0;
+}
+
+.page-header-list {
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.3);
+    font-family: ArialMT;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    list-style: none;
+    margin: 0;
+}
+
+.page-header-list-item {
+    position: relative;
+}
+
+.page-header-list-item:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/check_icon_346.png);
+    background-size: cover;
+    position: absolute;
+    top: 7px;
+    left: -40px;
+}
+
+.page-header-img {
+    display: block;
+    float: right;
+    width: 688px;
+    height: 214px;
+    background-color: #ffffff;
+}
+
+.block {
+    display: flex;
+    padding: 50px;
+}
+
+.main-title {
+    width: 60%;
+    height: auto;
+    ont-family: ArialMT;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.main-title-txt {
+    width: auto;
+    min-height: 50px;
+    font-family: ArialMT;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 30px 0 0 0;
+}
+
+.page-main-img {
+    display: block;
+    float: right;
+    width: 587px;
+    height: 245px;
+    background-color: #445161;
+    margin: 0 0 0 97px;
+}
