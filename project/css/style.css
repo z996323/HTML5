@@ -402,7 +402,7 @@
     margin: 20px auto 0 auto;
     border-radius: 5px;
     text-transform: uppercase;
-    /* position: relative; */
+    position: bottom;
     /* right: 9%; */
     /* top: 18%; */
 }
@@ -539,7 +539,6 @@ input[placeholder], textarea[placeholder] {
     width: 241px;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid black;
     color: rgb(255, 255, 255);
 }
 
@@ -564,7 +563,7 @@ input[placeholder], textarea[placeholder] {
     width: 24px;
     height: 24px;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -575,26 +574,25 @@ input[placeholder], textarea[placeholder] {
 
 .main-footer-contacts-link:nth-of-type(1):before {
     /* border: 1px solid #fff; */
-    background-image: url('https://s1.iconbird.com/ico/2014/1/622/w512h5121390854473skype512.png');
+    background-image: url(../img/skype_icon_319.png);
 }
 
 .main-footer-contacts-link:nth-of-type(2):before {
-    background-image: url('');
+    background-image: url(../img/icq_icon_324.png);
 }
 
 .main-footer-contacts-link:nth-of-type(3):before {
-    background-image: url('');
+    background-image: url(../img/email_icon_332.png);
 }
 
 .main-footer-contacts-link:nth-of-type(4):before {
-    background-image: url('');
+    background-image: url(../img/phone_icon_337.png);
 }
 
 .main-footer-contacts-icons {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 .main-footer-contacts-net {
@@ -603,18 +601,42 @@ input[placeholder], textarea[placeholder] {
     height: 42px;
     box-sizing: border-box;
     border: 1px solid #fff;
+    border-radius: 50%;
 }
 
 .copyright {
-    width: 100%;
-    padding: 15px;
-    /* -webkit-box-sizing: border-box; */
-    /* -moz-box-sizing: border-box; */
-    box-sizing: border-box;
-    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #000;
+    color: #445162;
 }
 
-.copyright p {
-    width: 80%;
-    margin: 0 auto;
+.icon1 {
+    background-image: url(../img/twitter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon2 {
+    background-image: url(../img/Facebook.png.crdownload);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon3 {
+    background-image: url(../img/LinkedIn.png.crdownload);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon4 {
+    background-image: url(../img/google.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.icon5 {
+    background-image: url(../img/youtube.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
